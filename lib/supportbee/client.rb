@@ -5,8 +5,10 @@ module SupportBee
     include SupportBee::Client::Agents
     include SupportBee::Client::Labels
     include SupportBee::Client::Groups
+    include SupportBee::Client::Reports
     include SupportBee::Client::Snippets
     include SupportBee::Client::Tickets
+    include SupportBee::Client::Users
     include SupportBee::Client::WebHooks
 
     def initialize(options = {})
